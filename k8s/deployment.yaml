@@ -17,7 +17,7 @@ spec:
       containers:
       - name: ml-container
         # IfNotPresent говорит K8s использовать локальный образ
-        image: ml-app:v4
+        image: ml-app:v3
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8000
